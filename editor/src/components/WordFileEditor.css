@@ -1,0 +1,38 @@
+button {
+  color: #ecf0f1;
+  border-radius: 5px;
+  position: relative;
+  z-index: 5;
+  border: solid 1px #89b2ff;
+  background: #4c7bd1;
+  text-align: center;
+  padding: 16px 18px 14px;
+  margin: 0px 12px 10px;
+  font-weight: 600;
+  transition: all 0.1s;
+  box-shadow: 0px 6px 0px #0543b7;
+}
+
+button:active {
+  box-shadow: 0px 2px 0px #0543b7;
+  position: relative;
+  top: 4px;
+}
+
+.mainInterface{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toolbarClassName{
+   margin-top: 10px;
+   padding:20px ;
+}
+.wrapperClassName{
+   height: calc(100vh - 80px);
+}
+.editorClassName{
+   max-height: 550px;
+   background-color:#ffffff;
+   padding:20px ;
+}
